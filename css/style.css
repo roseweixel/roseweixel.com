@@ -1,0 +1,332 @@
+/********** Web Fonts **********/
+@import url(http://fonts.googleapis.com/css?family=Lato:400);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+
+/********** Fixes **********/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 96%;
+	max-width: 960px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	background: url(../assets/crossword.png);
+	padding-bottom: 55px;
+	min-height: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+.caption {
+	font-family: Palatino, serif;
+	font-size: .8em;
+}
+
+.img_copy {
+	float: right;
+}
+
+#summary {
+	margin-bottom: 50px;
+}
+
+#resume li {
+	font-size: .8em;
+	line-height: 1.5em;
+	padding-bottom: 8px;
+}
+
+/******* Header & Nav Bar *******/
+
+header {
+	background: url(../assets/congruent-pentagon.png);
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+header h1 {
+	font-size: 40px;
+}
+
+header h2 {
+	font-family: 'Dancing Script', cursive;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+nav {
+	background: rgba(0,0,0,0.07);
+	padding: 5px;
+}
+
+nav li {
+	display: inline;
+	padding: 5px;
+}
+
+nav a, nav a:visited {
+	padding: 5px 10px;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background: rgba(255,255,255,0.5);
+}
+
+nav a:active {
+    /* Shadows are visible under slightly transparent text color */
+    color: rgba(100,100,100, 0.8);
+    text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+}
+
+#current_page {
+	background: url(../assets/crossword.png);
+	-webkit-box-shadow: 2px -2px 1px 0px rgba(70, 70, 70, 0.75);
+	-moz-box-shadow:    2px -2px 1px 0px rgba(70, 70, 70, 0.75);
+	box-shadow:         2px -2px 1px 0px rgba(70, 70, 70, 0.75);
+}
+/******* Main Content Area *******/
+
+#main_content {
+	padding: 30px;
+}
+
+
+#rose {
+	width: 200px;
+	border-radius: 100%;
+	border-color: #99FFCC;
+	border-style: double;
+	border-width: 4px;
+	float: right;
+	padding: 0;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+#map {
+	background: rgba(235, 253, 212, 1);
+	border: dotted #99FFCC;
+	padding: 2%;
+}
+
+iframe {
+	display: block;
+	width: 100%;
+	max-height: 400px;
+	max-width: 583px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+audio {
+	max-width: 100%;
+}
+#resume h3 {
+	text-align: center;
+	font-size: 16px;
+	border-top: 2px dotted #ccc;
+	border-bottom: 2px dotted #ccc;
+	padding: 5px 0;
+	margin-bottom: 10px;
+}
+
+#resume li {
+	margin-left: 20px;
+}
+
+#resume {
+	border-bottom: 2px dotted #ccc;
+}
+
+/******* Form *******/
+
+form {
+	padding-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-shadow: inset 0 0 5px #aaa;
+}
+
+#verify_and_send {
+
+	float: right;
+}
+
+img.verif_img {
+	display: inline-block;
+	width: 50px;
+	height: 40px;
+	float: left;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+input.verif_box {
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+
+input[type="submit"] {
+	border: 1px outset rgba(177, 246, 203, 1);
+   	background-color: rgba(235, 253, 212, 1);
+	width: 100px;
+	height: 40px;
+	padding: 5px;
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	box-shadow: none;
+}
+
+#message_sent {
+	font-size: 30px;
+	font-weight: 700;
+	display: inline-block;
+	vertical-align: top
+}
+
+#sent_icon {
+	display: inline-block;
+	width: 40px;
+	margin-right: 20px;
+}
+
+/******* Footer *******/
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 10px 2%;
+	background: #ccc;
+	font-size: 14px;
+	-webkit-box-shadow: 0px -2px 2px 0px rgba(60, 60, 60, 0.65);
+	-moz-box-shadow:    0px -2px 2px 0px rgba(60, 60, 60, 0.65);
+	box-shadow:         0px -2px 2px 0px rgba(60, 60, 60, 0.65);
+}
+
+.copyright {
+	float: left;
+	display: inline;
+	padding-top: 5px;
+}
+
+/********** Social Bar **********/
+
+#social {
+	height: 28px;
+	display: inline-block;
+	float: right;
+	border-right: 1px dotted #eee;
+	border-left: 1px dotted #eee;
+}
+
+
+a.gplus, a.link, a.twitt, a.ghub {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0 5px;
+	background: url(../assets/color-social-icons.png) no-repeat;
+}
+
+a.gplus { background-position: -103px -53px; }
+a.link  { background-position: -153px -53px; }
+a.twitt { background-position: -3px -53px; }
+a.ghub { background-position: -453px -53px; }
+
+
+/******* Posititoning Classes *******/
+
+.col1_left {
+	float: left;
+	width: 32%;
+	margin: 0 0 20px;
+}
+
+.col1_mid {
+	float: left;
+	width: 32%;
+	margin: 0 2% 20px 2%;
+}
+
+.col1_right {
+	float: right;
+	width: 32%;
+	margin: 0 0 20px;
+}
+
+.col2_left {
+	float: left;
+	width: 64%;
+	margin: 0 2% 20px 0;
+}
+
+.col2_right {
+	float: right;
+	width: 64%;
+	margin: 0 0 20px 2%;
+}
+
+.col3 {
+	margin: 0 0 20px;
+}
+
+/*TODO: see if vertical-align: bottom; will work here!*/
+.force_bottom_right {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.p_bottom {
+	margin-bottom: 0;
+}
+
+

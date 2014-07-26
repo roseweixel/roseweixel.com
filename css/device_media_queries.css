@@ -1,0 +1,182 @@
+/******* Tablet Landscape: 1024px *******/
+
+
+
+/******* Tablet Portrait: 768px *******/
+
+@media only screen and (max-width: 768px) {
+
+	.col2_left, .col2_right {
+		float: none;
+		width: 100%;
+	}
+
+	.half_screen_left {
+		float: left;
+		width: 49%;
+		margin-right: 1%;
+	}
+
+	.half_screen_right {
+		float: right;
+		width: 49%;
+		margin-left: 1%;
+	}
+
+	.centered_wide {
+		margin: 0 auto;
+		display: block;
+		width: 70%;
+		float: none;
+	}
+
+	#resume {
+		border: 0;
+	}
+
+	.res_section {
+		padding-bottom: 20px;
+	}
+
+	figure .caption {
+		font-size: 0.8em;
+	}
+
+	figure .img_copy {
+		display: block;
+		float: none;
+	}
+}
+
+
+/******* Smartphone Landscape: 480px *******/
+
+@media only screen and (max-width: 480px) {
+
+	.col1_left, .col1_mid, .col1_right {
+		float: none;
+		width: 100%;
+	}
+
+	.force_bottom_right {
+		position: static;
+	}
+
+	.centered_wide {
+		width: 100%;
+	}
+
+	#rose {
+		width: 40%;
+		margin-left: 2%;
+	}
+
+	iframe {
+		max-height: 350px;
+	}
+
+	#summary {
+		margin-bottom: 20px;
+	}
+
+}
+
+/******* Smartphone Portrait: 403px *******/
+
+@media only screen and (max-width: 403px) {
+
+	header {
+		margin-bottom: 5px;
+	}
+
+	header h1 {
+		font-size: 1.5em;
+	}
+
+	nav {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	nav a, nav li {
+		display: block;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	nav a {
+		padding: 3px 0;
+		margin: 0;
+		font-size: 1.2em;
+	}
+
+	#current_page {
+		background: black;
+		color: white;
+		box-shadow: none;
+	}
+
+	.res_section {
+		font-size: 1.2em;
+	}
+
+	iframe {
+		max-height: 250px;
+	}
+
+
+	.copyright {
+		font-size: 0.9em;
+	}
+
+	#verify_and_send {
+		width: 100%;
+	}
+
+	img.verif_img {
+		width: 25%;
+		height: 30px;
+		margin-right: 0;
+		vertical-align: top;
+	}
+
+	input.verif_box {
+		width: 73%;
+		height: 30px;
+		font-size: 12px;
+		margin-right: 2%;
+	}
+
+	input[type="submit"] {
+		display: block;
+		width: 100%;
+		height: 30px;
+		font-size: 16px;
+	}
+
+	footer .copyright {
+		padding-bottom: 10px;
+	}
+
+	footer #social a {
+		padding: 0 5%;
+	}
+
+	footer #social {
+		border: none;
+	}
+
+	footer .copyright, footer #social {
+		display: block;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	body {
+		padding-bottom: 100px;
+	}
+
+
